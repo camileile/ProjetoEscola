@@ -36,7 +36,15 @@ public class aluno {
     }
 
    
-    public void verSuasNotas() {}
+    public void verSuasNotas() {
+
+        System.out.println("Notas de " + nome + ":");
+        for (double n : notas) {
+        System.out.println(n);
+
+    }
+
+    }
 
     public void consultarFrequencias() {}
 

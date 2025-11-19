@@ -27,8 +27,12 @@ public class colaborador {
     }
 
 
-    public void verificarEscalaDeTrabalho() {}
+    public void verificarEscalaDeTrabalho() {
+        System.out.println("Escala do colaborador" + nome + "ainda não definida");
+    }
 
-    public void baterPonto() {}
+    public void baterPonto() {
+        System.out.println(nome + "bateu o ponto com sucesso.");
+    }
 }
 
